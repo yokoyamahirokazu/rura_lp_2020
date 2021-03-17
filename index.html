@@ -1086,16 +1086,16 @@
   <script>
     jQuery(function ($) {
       $('.contact_btn_download').on('click', function () {
-        $('#tab2').prop('checked', true);
+        $('#tab1').prop('checked', true);
       });
       $('.contact_btn_mail').on('click', function () {
-        $('#tab1').prop('checked', true);
-      });
-      $('.header_contact_btn_download').on('click', function () {
         $('#tab2').prop('checked', true);
       });
-      $('.header_contact_btn_mail').on('click', function () {
+      $('.header_contact_btn_download').on('click', function () {
         $('#tab1').prop('checked', true);
+      });
+      $('.header_contact_btn_mail').on('click', function () {
+        $('#tab2').prop('checked', true);
       });
     });
   </script>
