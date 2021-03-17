@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-168809361-1');
   </script>
   <meta charset="UTF-8">
@@ -47,15 +46,11 @@
   <script type="text/javascript" src="./js/jquery-3.5.1.min.js" type="text/javascript"></script>
   <script type="text/javascript" src="./slick/slick.min.js" type="text/javascript"></script>
   <script>
-
     jQuery(window).on('load', function () {
       jQuery.noConflict();
-
       jQuery('.anima_a').addClass('anima_a_data');
       jQuery('.anima_b').addClass('anima_b_data');
       jQuery('.anima_c').addClass('anima_c_data');
-
-
       jQuery('.anima_a_map').addClass('anima_a_map_data');
       jQuery('.anima_a_device').addClass('anima_a_device_data');
       jQuery('.anima_a_logo').addClass('anima_a_logo_data');
@@ -77,7 +72,6 @@
       jQuery('.anima_a_worker_c').addClass('anima_a_worker_c_data');
       jQuery('.anima_a_worker_b').addClass('anima_a_worker_b_data');
       jQuery('.anima_a_worker_a').addClass('anima_a_worker_a_data');
-
       jQuery('.anima_b_bubble').addClass('anima_b_bubble_data');
       jQuery('.anima_b_device').addClass('anima_b_device_data');
       jQuery('.anima_b_line_device').addClass('anima_b_line_device_data');
@@ -88,7 +82,6 @@
       jQuery('.anima_b_staff').addClass('anima_b_staff_data');
       jQuery('.anima_b_worker_bubble').addClass('anima_b_worker_bubble_data');
       jQuery('.anima_b_worker').addClass('anima_b_worker_data');
-
       jQuery('.anima_c_bubble_chara').addClass('anima_c_bubble_chara_data');
       jQuery('.anima_c_bubble_face').addClass('anima_c_bubble_face_data');
       jQuery('.anima_c_bubble_robot').addClass('anima_c_bubble_robot_data');
@@ -102,68 +95,49 @@
       jQuery('.anima_c_name_robot').addClass('anima_c_name_robot_data');
       jQuery('.anima_c_line_worker').addClass('anima_c_line_worker_data');
       jQuery('.anima_c_woker').addClass('anima_c_woker_data');
-
-
       jQuery('.span_anima_1').addClass('span_anima_1_data');
       jQuery('.span_anima_2').addClass('span_anima_2_data');
       jQuery('.span_anima_3').addClass('span_anima_3_data');
-
       jQuery('.underline_anima_1').addClass('underline_anima_1_data');
       jQuery('.underline_anima_2').addClass('underline_anima_2_data');
       jQuery('.underline_anima_3').addClass('underline_anima_3_data');
-
     });
-
-
   </script>
   <script type="text/javascript" src="./js/rura.js"></script>
   <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5e12e48e78a442a4bc1d24ade90393a3"
     charset="utf-8"></script>
-
   <script>
     var userAgent = window.navigator.userAgent.toLowerCase();
     if (userAgent.indexOf('msie') != -1 || userAgent.indexOf('trident') != -1) {
-
       document.addEventListener('DOMContentLoaded', function () {
-
         let elements_display_none_item = document.getElementsByClassName('display_none_item');
         Array.prototype.forEach.call(elements_display_none_item, function (element) {
           element.classList.add('display_none');
         });
-
-
-
         let elements = document.getElementsByClassName('txt_anime_none');
         Array.prototype.forEach.call(elements, function (element) {
           element.classList.remove('passing-txt');
         });
-
         let elements_fadein = document.getElementsByClassName('fadein_none');
         Array.prototype.forEach.call(elements_fadein, function (element) {
           element.classList.remove('fadein');
         });
-
         let elements_fadedown = document.getElementsByClassName('fadedown_none');
         Array.prototype.forEach.call(elements_fadedown, function (element) {
           element.classList.remove('fadedown');
         });
-
         let elements_fadefast = document.getElementsByClassName('fadefast_none');
         Array.prototype.forEach.call(elements_fadefast, function (element) {
           element.classList.remove('fadefast');
         });
-
         let elements_about_illust_active = document.getElementsByClassName('about_illust_active');
         Array.prototype.forEach.call(elements_about_illust_active, function (element) {
           element.classList.add('active');
         });
-
         let elements_block_item = document.getElementsByClassName('block_item');
         Array.prototype.forEach.call(elements_block_item, function (element) {
           element.classList.add('display_block');
         });
-
-
         let elements_pd = document.getElementsByClassName('pd_24');
         Array.prototype.forEach.call(elements_pd, function (element) {
           element.classList.add('add_pd_24');
@@ -172,50 +146,31 @@
         Array.prototype.forEach.call(elements_bg_gray, function (element) {
           element.classList.add('bg_gray');
         });
-
       });
-
     }
-
   </script>
-
-
-
 </head>
 
 <body>
-
-
-
   <div class="loading display_none_item">
     <img src="./img/favicon.svg" />
   </div>
-
-
   <header>
-
     <a class="header_logo" href="">
       <img src="./img/rura_logo_blue.svg" alt="">
     </a>
-
     <div class="header_nav_wrapper">
       <nav class="header_nav">
         <div class="header_nav_inner">
-
           <ul>
             <li><a href="#rura_about">RURAとは</a></li>
             <li><a href="#rura_merit">メリット</a></li>
             <li><a href="#rura_how">活用方法</a></li>
             <li><a href="#rura_voice">ボイスチェンジ</a></li>
             <li><a href="#faq">FAQ</a></li>
-
           </ul>
-
-
-
         </div>
       </nav>
-
       <div class="nav_toggle">
         <div>
           <span></span>
@@ -223,35 +178,20 @@
           <span></span>
         </div>
       </div>
-
-
       <div class="header_contact_wrapper">
         <a class="header_contact_btn header_contact_btn_mail" href="#from_area" target="_blank"
           onclick="gtag('event', 'click', {'event_category': 'contact','event_label': 'click_contact_3'});"><i
             class="fad fa-envelope-square display_none_item"></i><span>お問合せ</span></a>
-
         <a class="header_contact_btn header_contact_btn_download" href="#from_area" target="_blank"
           onclick="gtag('event', 'click', {'event_category': 'download','event_label': 'click_dl_3'});"><i
             class="fad fa-file-alt display_none_item"></i><span>資料ダウンロード</span></a>
       </div>
-
     </div>
-
-
-
-
   </header>
-
-
-
   <section class="anima_wrapper">
     <div class="anima_wrapper_flex">
-
-
       <div class="txt_box">
-
         <div class="txt_box_inner anima_a">
-
           <div class="txt_box_a">
             <div class="anima_box_catch_box span_anima_1">
               <p class="anima_box_catch">スタッフ不足にお困りの<br>店舗経営者様必見</p>
@@ -262,21 +202,14 @@
               <span class="span_anima_3">遠隔接客サービス「RURA」</span>
               <span class="span_anima_3 small">※特許出願中</span>
             </h2>
-
             <div class="anima_wrapper_dl_btn_wrapper span_anima_2">
               <a class="anima_wrapper_dl_btn contact_btn_download" href="#from_area" target="_blank" onclick=""><i
                   class="fad fa-file-alt display_none_item"></i><span>資料ダウンロードはこちら<span
                     class="english">Download</span></span></a>
             </div>
-
           </div>
-
-
         </div>
-
-
         <div class="txt_box_inner anima_b">
-
           <div class="txt_box_b">
             <div class="anima_box_catch_box span_anima_1">
               <p class="anima_box_catch">人件費にお困りの<br>経営者様にも！</p>
@@ -286,23 +219,14 @@
               <span class="span_anima_2">接客の一部を遠隔スタッフに</span>
               <span class="span_anima_3">任せることで<span class="underline underline_anima_1">人件費削減</span></span>
             </h2>
-
             <div class="anima_wrapper_dl_btn_wrapper span_anima_2">
               <a class="anima_wrapper_dl_btn contact_btn_download" href="#from_area" target="_blank" onclick=""><i
                   class="fad fa-file-alt display_none_item"></i><span>資料ダウンロードはこちら<span
                     class="english">Download</span></span></a>
             </div>
-
           </div>
         </div>
-
-
-
-
-
-
         <div class="txt_box_inner anima_c">
-
           <div class="txt_box_c">
             <div class="anima_box_catch_box span_anima_1 span_anima_2">
               <p class="anima_box_catch">さまざまな業種の<br>遠隔接客に対応！</p>
@@ -312,70 +236,39 @@
               <span class="span_anima_2"><span class="underline underline_anima_2">バーチャルキャラクター</span>や</span>
               <span class="span_anima_3"><span class="underline underline_anima_3">ロボット越し</span>での接客も可能</span>
             </h2>
-
             <div class="anima_wrapper_dl_btn_wrapper span_anima_2">
               <a class="anima_wrapper_dl_btn contact_btn_download" href="#from_area" target="_blank" onclick=""><i
                   class="fad fa-file-alt display_none_item"></i><span>資料ダウンロードはこちら<span
                     class="english">Download</span></span></a>
             </div>
-
           </div>
         </div>
-
-
       </div>
-
-
-
-
       <div class="anima_box">
         <div class="anima_box_inner">
-
-
-
-
-
           <div class="anima_a">
-
             <img class="anima_a_map" src="./img/anima_a_map.svg">
-
             <img class="anima_a_point_fukuoka" src="./img/anima_a_point_fukuoka.svg">
             <img class="anima_a_point_sapporo" src="./img/anima_a_point_sapporo.svg">
             <img class="anima_a_point_tokyo" src="./img/anima_a_point_tokyo.svg">
-
-
             <img class="anima_a_line_fukuoka" src="./img/anima_a_line_fukuoka.svg">
             <img class="anima_a_line_sapporo" src="./img/anima_a_line_sapporo.svg">
             <img class="anima_a_line_tokyo" src="./img/anima_a_line_tokyo.svg">
-
-
             <img class="anima_a_name_fukuoka" src="./img/anima_a_name_fukuoka.svg">
             <img class="anima_a_name_sapporo" src="./img/anima_a_name_sapporo.svg">
             <img class="anima_a_name_tokyo" src="./img/anima_a_name_tokyo.svg">
-
-
             <img class="anima_a_bubble_fukuoka" src="./img/anima_a_bubble_fukuoka.svg">
             <img class="anima_a_bubble_sapporo" src="./img/anima_a_bubble_sapporo.svg">
             <img class="anima_a_bubble_tokyo" src="./img/anima_a_bubble_tokyo.svg">
-
-
             <img class="anima_a_device" src="./img/anima_a_device.svg">
             <img class="anima_a_logo" src="./img/anima_a_logo.svg">
-
-
-
             <img class="anima_a_line_c" src="./img/anima_a_line_c.svg">
             <img class="anima_a_line_b" src="./img/anima_a_line_b.svg">
             <img class="anima_a_line_a" src="./img/anima_a_line_a.svg">
-
             <img class="anima_a_worker_c" src="./img/anima_a_worker_c.svg">
             <img class="anima_a_worker_b" src="./img/anima_a_worker_b.svg">
             <img class="anima_a_worker_a" src="./img/anima_a_worker_a.svg">
-
           </div>
-
-
-
           <div class="anima_b">
             <img class="anima_b_bubble" src="./img/anima_b_bubble.svg">
             <img class="anima_b_device" src="./img/anima_b_device.svg">
@@ -388,10 +281,7 @@
             <img class="anima_b_worker_bubble" src="./img/anima_b_worker_bubble.svg">
             <img class="anima_b_worker" src="./img/anima_b_worker.svg">
           </div>
-
-
           <div class="anima_c">
-
             <img class="anima_c_bubble_chara" src="./img/anima_c_bubble_chara.svg">
             <img class="anima_c_bubble_face" src="./img/anima_c_bubble_face.svg">
             <img class="anima_c_bubble_robot" src="./img/anima_c_bubble_robot.svg">
@@ -405,22 +295,11 @@
             <img class="anima_c_name_face" src="./img/anima_c_name_face.svg">
             <img class="anima_c_name_robot" src="./img/anima_c_name_robot.svg">
             <img class="anima_c_woker" src="./img/anima_c_woker.svg">
-
           </div>
-
-
         </div>
       </div>
-
-
     </div>
-
-
-
   </section>
-
-
-
   <!---News------------------------------------------>
   <div class="news_content">
     <h2 class="news_content_title fadein">News</h2>
@@ -455,12 +334,7 @@
       </li>
     </ul>
   </div>
-
   <!---News----------------------------------------->
-
-
-
-
   <div class="content">
     <div class="blue_box_area" id="rura_about">
       <div class="blue_box blue_box_title">
@@ -700,19 +574,7 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
     <section class="utilize_pc">
-
       <div class="headline_box">
         <h2 class="headline passing">
           <span class="headline_en headline_en_flat"><img class="headline_en_logo" src="./img/rura_logo_blue.svg"
@@ -724,34 +586,24 @@
           </span>
         </h2>
       </div>
-
       <script>
         jQuery(function ($) {
-
           $(window).on('load resize', function () {
-
             function checkBreakPoint() {
-
               var w = $(window).width();
               var x = 768;
               if (w > x) {
                 $('.utilize_pc').show();
                 $('.utilize_sp').hide();
-
-
                 var thumbnailItem = ".utilize_slide_nav li";
-
                 $(thumbnailItem).each(function () {
                   var index = $(thumbnailItem).index(this);
                   $(this).attr("data-index", index);
                 });
-
-
                 $('.utilize_slide').on('init', function (slick) {
                   var index = $(".slide-item.slick-slide.slick-current").attr("data-slick-index");
                   $(thumbnailItem + '[data-index="' + index + '"]').addClass("thumbnail-current");
                 });
-
                 $('.utilize_slide').not('.slick-initialized').slick({
                   autoplay: false,
                   arrow: true,
@@ -761,17 +613,13 @@
                   var index = $(this).attr("data-index");
                   $('.utilize_slide').slick("slickGoTo", index, false);
                 });
-
                 $('.utilize_slide').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
                   $(thumbnailItem).each(function () {
                     $(this).removeClass("thumbnail-current");
                   });
                   $(thumbnailItem + '[data-index="' + nextSlide + '"]').addClass("thumbnail-current");
                 });
-
-
               } else {
-
                 $('.utilize_slide.slick-initialized').slick('unslick');
                 $('.utilize_pc').hide();
                 $('.utilize_sp').show();
@@ -783,19 +631,11 @@
             });
             // 初回チェック
             checkBreakPoint();
-
-
-
           });
-
         });
       </script>
-
       <div class="utilize_slide_wrapper">
-
         <ul class="utilize_slide">
-
-
           <li>
             <div class="utilize_slide_li_inner">
               <div class="utilize_slide_li_inner_content">
@@ -804,7 +644,6 @@
                   <span class="txt">
                     ホテル <span class="en">Hotel</span></span>
                 </h3>
-
                 <p> ホテルフロントの接客業務の一部を遠隔で回すことにより、1店舗あたり30万円程度の人件費削減が可能になります。<br>
                   外国語ワーカーも控えているため、外国人対応も可能。最先端の無人フロントにすることも可能です。 </p>
               </div>
@@ -818,7 +657,6 @@
                   <span class="txt">
                     携帯ショップ <span class="en">Mobile Shop</span></span>
                 </h3>
-
                 <p>
                   来店されたお客様へのヒアリングや商品説明など、業務の一部を遠隔で行なうことで現場の負担を軽くし、人件費を下げることが可能です。<br>画像や動画を用いてリッチな案内が可能。お客様の満足度の向上にも繋がります。
                 </p>
@@ -833,7 +671,6 @@
                   <span class="txt">
                     テーマパーク <span class="en">Theme Park</span></span>
                 </h3>
-
                 <p> テーマパークの受付や案内などをキャラクターが担当することで、接客自体を一つのアトラクションにすることができます。<br>バーチャルキャラクターはオリジナルキャラクターに変更することも可能です。
                 </p>
               </div>
@@ -847,7 +684,6 @@
                   <span class="txt">
                     室内遊戯施設 <span class="en">Indoor Playground</span></span>
                 </h3>
-
                 <p>
                   エンターテインメントを体験しにきているお客様に、接客でもエンタメを提供することで、お客様に施設をより一層楽しんで頂けます。<br>説明業務だけでなく、会員登録や受付を遠隔で行なうことで、ランニングコストの削減にも繋がります。
                 </p>
@@ -862,7 +698,6 @@
                   <span class="txt">
                     介護施設 <span class="en">Nursing Home</span></span>
                 </h3>
-
                 <p>
                   外来の受付だけでなく、入居者様からの困りごとなどの一次対応を遠隔で行なうことで、介護士の皆様のご負担を減らすことができます。<br>ロボットやキャラクター越しで会話することで、入居者様にも会話を楽しんで頂くことできます。
                 </p>
@@ -877,7 +712,6 @@
                   <span class="txt">
                     不動産賃貸 <span class="en">Real Estate</span></span>
                 </h3>
-
                 <p> 不動産賃貸の賃貸物件の紹介なども遠隔で行なうことが可能です。<br>サイネージ越しの接客も可能なため、お店の外を通りがかった物件情報を見ている方に、適したお声がけをすることができます。 </p>
               </div>
             </div>
@@ -890,7 +724,6 @@
                   <span class="txt">
                     コワーキング/<span>シェアオフィス</span><span class="en">Coworking Space / Shared Office</span></span>
                 </h3>
-
                 <p>
                   テキスト受付が必要な業態は遠隔での接客に適しています。<br>会員証のバーコードを遠隔で読み取り、入退室の処理が可能な他、チャットツールを活用して入居者様へのご連絡も行います。<br>会員登録や受付処理の他、遠隔決済にも対応予定です。
                 </p>
@@ -905,7 +738,6 @@
                   <span class="txt">
                     ショッピングセンター <span class="en">Shopping Center</span></span>
                 </h3>
-
                 <p>
                   通常は1階にしか置かれていないインフォメーションセンターを各階に置くことが可能です。<br>一人のスタッフが飛び回ることで人件費を抑えることができるだけでなく、キャラクター越しの接客を行なうことで家族連れにも楽しんで頂けます。
                 </p>
@@ -920,19 +752,14 @@
                   <span class="txt">
                     家電量販店 <span class="en">Appliance Store</span></span>
                 </h3>
-
                 <p>
                   RURAは複数箇所を飛び回ることができる仕組みのため、パソコン売り場、テレビ売り場など、一人のスタッフが複数場所で対応することができます。<br>お客様が困っていそうな時にお声がけをすることで、顧客満足度の向上にも繋がります。
                 </p>
               </div>
             </div>
           </li>
-
-
         </ul>
-
         <ul class="utilize_slide_nav">
-
           <li class="thumbnail-current">
             <h3 class="utilize_slide_thumb_tilte">
               <span class="list_icon"><i class="fad fa-concierge-bell"></i></span>
@@ -996,17 +823,10 @@
                 家電量販店 <span class="en">Appliance Store</span></span>
             </h3>
           </li>
-
         </ul>
       </div>
     </section>
-
-
-
-
-
     <section class="utilize_sp">
-
       <div class="headline_box">
         <h2 class="headline passing">
           <span class="headline_en headline_en_flat"><img class="headline_en_logo" src="./img/rura_logo_blue.svg"
@@ -1018,7 +838,6 @@
           </span>
         </h2>
       </div>
-
       <div class="utilize">
         <ul class="delay_wrapper">
           <li class="delay_left">
@@ -1156,12 +975,7 @@
           </li>
         </ul>
       </div>
-
-
     </section>
-
-
-
     <div class="voice_change" id="rura_voice">
       <div class="headline_box">
         <h2 class="headline headline_small passing"> <span class="headline_en headline_en_flat"><img
@@ -1189,7 +1003,6 @@
                   <div class="voice_change_box_img_inner"> <img class="unchanged_img" src="./img/voice_worker_image.png"
                       alt="RURAのボイスチェンジオペレーターの声"> </div>
                 </div>
-
                 <h3 class="voice_change_box_name">対面（顔出し）での接客の場合<span>RURAワーカーの声で接客</span></h3>
                 <div class="voice_btn_box"
                   onclick="gtag('event', 'click', {'event_category':'voicechange','event_label':'click_play_ruraworker'});">
@@ -1233,66 +1046,52 @@
               </div>
             </div>
           </div>
-
           <script type="text/javascript">
             var userAgent = window.navigator.userAgent.toLowerCase();
             if (userAgent.indexOf('msie') != -1 || userAgent.indexOf('trident') != -1) {
-
               var music_changed = new Audio();
               function init_changed() {
                 music_changed.preload = "auto";
                 music_changed.src = "./audio/rura_voice_changed.mp3";
                 music_changed.load();
-
                 music_changed.addEventListener("ended", function () {
                   music_changed.currentTime = 0;
                   music_changed.play();
                 }, false);
               }
-
               function mm_play_changed() {
                 music_changed.loop = false;
                 music_changed.play();
               }
-
               function stop_changed() {
                 music_changed.pause();
                 music_changed.currentTime = 0;
               }
-
               init_changed();
-
               var music_unchanged = new Audio();
               function init_unchanged() {
                 music_unchanged.preload = "auto";
                 music_unchanged.src = "./audio/rura_voice_unchanged.mp3";
                 music_unchanged.load();
-
                 music_unchanged.addEventListener("ended", function () {
                   music_unchanged.currentTime = 0;
                   music_unchanged.play();
                 }, false);
               }
-
               function mm_play_unchanged() {
                 music_unchanged.loop = false;
                 music_unchanged.play();
               }
-
               function stop_unchanged() {
                 music_unchanged.pause();
                 music_unchanged.currentTime = 0;
               }
-
               init_unchanged();
             }
           </script>
-
         </div>
       </div>
     </div>
-
-
     <div class="contact_block bg_gray_item">
       <h2 class="contact_block_title">あなたの店舗にもマッチするかも</h2>
       <div class="contact_block_inner">
@@ -1364,11 +1163,9 @@
             遠隔接客に慣れたスタッフが店舗接客に必要な研修を積み、現場の接客に臨みます。<br>マニュアルの整備をタイムリープ株式会社（運営会社）側でするほか、接客画面に接客に必要なメモを置いておくことで、様々な質問にも対応できるようになります。<br>そして、録音された接客内容※を上長が聞いてフィードバックすることで、接客の質を常に改善していきます。<br>
             ※お客様が個人情報を話された場合には接客音声は削除されます。</p>
         </div>
-
       </div>
     </div>
   </div>
-
   <div class="contact_block bg_gray_item">
     <h2 class="contact_block_title">まずはお気軽にお問い合わせください。</h2>
     <div class="contact_block_inner">
@@ -1380,8 +1177,6 @@
           class="fad fa-file-alt display_none_item"></i>資料ダウンロード<span>Download</span></a>
     </div>
   </div>
-
-
   <div class="for_agency_wrapper fadein">
     <p class="for_agency">
       <span class="icon"><i class="fas fa-handshake"></i></span>
@@ -1389,8 +1184,6 @@
       その旨ご記載の上、まずはお気軽にお問い合わせください。
     </p>
   </div>
-
-
   <script>
     jQuery(function ($) {
       $('.contact_btn_download').on('click', function () {
@@ -1407,19 +1200,11 @@
       });
     });
   </script>
-
-
-
   <div class="iframe_wrapper">
     <script src="https://sdk.form.run/js/v2/embed.js"></script>
-
     <div class="tab_wrap" id="from_area">
-
-
       <input id="tab1" type="radio" name="tab_btn" value="tab1" checked>
       <input id="tab2" type="radio" name="tab_btn" value="tab2">
-
-
       <div class="tab_area">
         <label class="tab1_label" for="tab1">
           <p class="contact_btn contact_btn_mail"><i
@@ -1432,9 +1217,7 @@
       </div>
       <div class="panel_area">
         <div id="panel1" class="tab_panel">
-
           <div class="rura_form_content">
-
             <img class="form_content_title_img" src="img/rura-form-top.png" alt="">
             <div class="form_content_title">
               <h2 class="sf-text-center">RURA お問い合わせ</h2>
@@ -1443,81 +1226,60 @@
             </div>
             <hr class="divider">
             <div class="form_content_body">
-
               <!--  ----------------------------------------------------------------------  -->
               <!--  次の <META> 要素を、HTML の <HEAD>タグ間に追加してください。必要に応じて、charset                  -->
               <!--  パラメータを変更して、HTML ページの文字コードを指定してください。                                     -->
               <!--  ----------------------------------------------------------------------  -->
-
               <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-
               <!--  ----------------------------------------------------------------------  -->
               <!--  次の <FORM> 要素をページに追加してください。                                              -->
               <!--  ----------------------------------------------------------------------  -->
-
               <form class="checkbox_wrapper"
                 action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
                 <input type=hidden name="oid" value="00D2r000000Fm6b">
                 <input type=hidden name="retURL"
                   value="https://timeleap-rura.com/contact-thanks.html?fr_referrer=https%3A%2F%2Ftimeleap-rura.com%2F">
-
                 <!--  ----------------------------------------------------------------------  -->
                 <!--  注意: これらの項目は、省略可能なデバッグ用要素です。デバッグモードでテストを行う場合は、これらの行をコメント解除してください。        -->
                 <!--  <input type="hidden" name="debug" value=1>                              -->
                 <!--  <input type="hidden" name="debugEmail"                                  -->
                 <!--  value="katsuki@timeleap.co.jp">                                         -->
                 <!--  ----------------------------------------------------------------------  -->
-
                 <div class="form_content_body_box">
                   <label for="company">会社名<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="company" maxlength="40" name="company" size="20" type="text"
                     required />
                 </div>
-
-
-
-
                 <div class="form_content_body_box">
                   <label for="company">役職名<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="00N2r000000onjn" maxlength="50" name="00N2r000000onjn" size="20"
                     type="text" required />
                 </div>
-
-
                 <div class="form_content_body_box form_content_body_box_flex">
-
                   <div class="form_content_body_box_flex_box">
                     <label for="last_name">姓<span class="tag tag-danger">必須</span></label>
                     <input class="form-control" id="00N2r000000oqaD" maxlength="10" name="00N2r000000oqaD" size="20"
                       type="text" required />
                   </div>
-
                   <div class="form_content_body_box_flex_box"><label for="first_name">名<span
                         class="tag tag-danger">必須</span></label>
                     <input class="form-control" id="00N2r000000oqaI" maxlength="10" name="00N2r000000oqaI" size="20"
                       type="text" required />
                   </div>
                 </div>
-
-
                 <div class="form_content_body_box">
                   <label for="email">メール<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" required />
                 </div>
-
                 <div class="form_content_body_box">
                   <label for="phone">電話<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="text" required />
                 </div>
-
                 <div class="form_content_body_box">
                   <p>RURAを検討中の店舗名<span class="tag tag-default">任意</span></p>
                   <input class="form-control" id="00N2r000000onkg" maxlength="50" name="00N2r000000onkg" size="20"
                     type="text" />
                 </div>
-
-
                 <div class="form_content_body_box">
                   <p>運営中の店舗数<span class="tag tag-default">任意</span></p>
                   <select class="form-control" id="00N2r000000onkl" name="00N2r000000onkl" title="運営中の店舗数">
@@ -1624,18 +1386,14 @@
                     <option value="100">100</option>
                   </select>
                 </div>
-
                 <div class="form_content_body_box">
                   <p>お問い合わせ内容<span class="tag tag-danger">必須</span></p>
                   <textarea class="form-control" id="00N2r000000oYrl" name="00N2r000000oYrl" type="text" wrap="soft"
                     rows="8" required></textarea>
                 </div>
-
                 <div class="form_content_body_box">
                   <p>その他、気になった項目を教えてください<span class="tag tag-default">任意</span></p>
-
                   <div class="rura_form_flex">
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000oYs5" name="00N2r000000oYs5" type="checkbox" value="1" />
@@ -1644,7 +1402,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYT" name="00N2r000000obYT" type="checkbox" value="1" />
@@ -1653,7 +1410,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYO" name="00N2r000000obYO" type="checkbox" value="1" />
@@ -1662,7 +1418,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYY" name="00N2r000000obYY" type="checkbox" value="1" />
@@ -1671,7 +1426,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYd" name="00N2r000000obYd" type="checkbox" value="1" />
@@ -1682,11 +1436,9 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="form_content_body_box">
                   <p>RURAをどちらでお知りになりましたか？<span class="tag tag-default">任意</span></p>
                   <div class="rura_form_flex">
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYi" name="00N2r000000obYi" type="checkbox" value="1" />
@@ -1695,7 +1447,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYn" name="00N2r000000obYn" type="checkbox" value="1" />
@@ -1704,7 +1455,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYs" name="00N2r000000obYs" type="checkbox" value="1" />
@@ -1713,7 +1463,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000onlU" name="00N2r000000onlU" type="checkbox" value="1" />
@@ -1722,7 +1471,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZ2" name="00N2r000000obZ2" type="checkbox" value="1" />
@@ -1731,7 +1479,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZ7" name="00N2r000000obZ7" type="checkbox" value="1" />
@@ -1740,7 +1487,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZC" name="00N2r000000obZC" type="checkbox" value="1" />
@@ -1749,7 +1495,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZH" name="00N2r000000obZH" type="checkbox" value="1" />
@@ -1758,7 +1503,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZM" name="00N2r000000obZM" type="checkbox" value="1" />
@@ -1767,7 +1511,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZR" name="00N2r000000obZR" type="checkbox" value="1" />
@@ -1776,24 +1519,17 @@
                       </label>
                       </label>
                     </div>
-
-
                   </div>
                 </div>
-
                 <div class="rura_form_submit_box">
                   <button class="rura_form_submit" type="submit" name="submit">送信する</button>
                 </div>
-
               </form>
-
             </div>
           </div>
         </div>
         <div id="panel2" class="tab_panel">
-
           <div class="rura_form_content">
-
             <img class="form_content_title_img" src="img/rura-form-top.png" alt="">
             <div class="form_content_title">
               <h2 class="sf-text-center">RURA 資料ダウンロード</h2>
@@ -1802,83 +1538,60 @@
             </div>
             <hr class="divider">
             <div class="form_content_body">
-
-
               <!--  ----------------------------------------------------------------------  -->
               <!--  次の <META> 要素を、HTML の <HEAD>タグ間に追加してください。必要に応じて、charset                  -->
               <!--  パラメータを変更して、HTML ページの文字コードを指定してください。                                     -->
               <!--  ----------------------------------------------------------------------  -->
-
               <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-
               <!--  ----------------------------------------------------------------------  -->
               <!--  次の <FORM> 要素をページに追加してください。                                              -->
               <!--  ----------------------------------------------------------------------  -->
-
               <form class="checkbox_wrapper_b"
                 action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
-
                 <input type=hidden name="oid" value="00D2r000000Fm6b">
                 <input type=hidden name="retURL"
                   value="https://timeleap-rura.com/dl-thanks.html?fr_referrer=https%3A%2F%2Ftimeleap-rura.com%2F">
-
                 <!--  ----------------------------------------------------------------------  -->
                 <!--  注意: これらの項目は、省略可能なデバッグ用要素です。デバッグモードでテストを行う場合は、これらの行をコメント解除してください。        -->
                 <!--  <input type="hidden" name="debug" value=1>                              -->
                 <!--  <input type="hidden" name="debugEmail"                                  -->
                 <!--  value="katsuki@timeleap.co.jp">                                         -->
                 <!--  ----------------------------------------------------------------------  -->
-
-
-
                 <div class="form_content_body_box">
                   <label for="company">会社名<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="company" maxlength="40" name="company" size="20" type="text"
                     required />
                 </div>
-
                 <div class="form_content_body_box">
                   <label for="company">役職名<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="00N2r000000onjn" maxlength="50" name="00N2r000000onjn" size="20"
                     type="text" required />
                 </div>
-
-
                 <div class="form_content_body_box form_content_body_box_flex">
-
                   <div class="form_content_body_box_flex_box">
                     <label for="last_name">姓<span class="tag tag-danger">必須</span></label>
                     <input class="form-control" id="00N2r000000oqaD" maxlength="10" name="00N2r000000oqaD" size="20"
                       type="text" required />
                   </div>
-
                   <div class="form_content_body_box_flex_box"><label for="first_name">名<span
                         class="tag tag-danger">必須</span></label>
                     <input class="form-control" id="00N2r000000oqaI" maxlength="10" name="00N2r000000oqaI" size="20"
                       type="text" required />
                   </div>
                 </div>
-
-
                 <div class="form_content_body_box">
                   <label for="email">メール<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" required />
                 </div>
-
                 <div class="form_content_body_box">
                   <label for="phone">電話<span class="tag tag-danger">必須</span></label>
                   <input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="text" required />
                 </div>
-
                 <div class="form_content_body_box">
                   <p>RURAを検討中の店舗名<span class="tag tag-default">任意</span></p>
                   <input class="form-control" id="00N2r000000onkg" maxlength="50" name="00N2r000000onkg" size="20"
                     type="text" />
                 </div>
-
-
-
-
                 <div class="form_content_body_box">
                   <p>運営中の店舗数<span class="tag tag-default">任意</span></p>
                   <select class="form-control" id="00N2r000000onkl" name="00N2r000000onkl" title="運営中の店舗数">
@@ -1985,13 +1698,9 @@
                     <option value="100">100</option>
                   </select>
                 </div>
-
-
-
                 <div class="form_content_body_box">
                   <p>その他、気になった項目を教えてください<span class="tag tag-default">任意</span></p>
                   <div class="rura_form_flex">
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000oYs5" name="00N2r000000oYs5" type="checkbox" value="1" />
@@ -2000,7 +1709,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYT" name="00N2r000000obYT" type="checkbox" value="1" />
@@ -2009,7 +1717,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYO" name="00N2r000000obYO" type="checkbox" value="1" />
@@ -2018,7 +1725,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYY" name="00N2r000000obYY" type="checkbox" value="1" />
@@ -2027,7 +1733,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYd" name="00N2r000000obYd" type="checkbox" value="1" />
@@ -2038,18 +1743,9 @@
                     </div>
                   </div>
                 </div>
-
-
-
                 <div class="form_content_body_box">
                   <p>RURAをどちらでお知りになりましたか？<span class="tag tag-default">任意</span></p>
-
                   <div class="rura_form_flex">
-
-
-
-
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYi" name="00N2r000000obYi" type="checkbox" value="1" />
@@ -2058,7 +1754,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYn" name="00N2r000000obYn" type="checkbox" value="1" />
@@ -2067,7 +1762,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obYs" name="00N2r000000obYs" type="checkbox" value="1" />
@@ -2076,7 +1770,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000onlU" name="00N2r000000onlU" type="checkbox" value="1" />
@@ -2085,7 +1778,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZ2" name="00N2r000000obZ2" type="checkbox" value="1" />
@@ -2094,7 +1786,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZ7" name="00N2r000000obZ7" type="checkbox" value="1" />
@@ -2103,7 +1794,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZC" name="00N2r000000obZC" type="checkbox" value="1" />
@@ -2112,7 +1802,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZH" name="00N2r000000obZH" type="checkbox" value="1" />
@@ -2121,7 +1810,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZM" name="00N2r000000obZM" type="checkbox" value="1" />
@@ -2130,7 +1818,6 @@
                       </label>
                       </label>
                     </div>
-
                     <div class="rura_form_flex_col_6">
                       <label class="rura_form_checkbox_label">
                         <input id="00N2r000000obZR" name="00N2r000000obZR" type="checkbox" value="1" />
@@ -2139,29 +1826,18 @@
                       </label>
                       </label>
                     </div>
-
-
                   </div>
                 </div>
-
                 <div class="rura_form_submit_box">
                   <button class="rura_form_submit" type="submit" name="submit">送信する</button>
                 </div>
-
               </form>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-
-
   </div>
-
-
-
-
   <div class="footer">
     <div class="footer_top">
       <div class="footer_logo">
@@ -2177,15 +1853,9 @@
     <p class="copyright">Copyright&copy;
       2021 Timeleap inc. All Rights Reserved.</p>
   </div>
-
-
-
-
   <div class="backtotop">
-    <a class="backtotop_btn" href="#display_block"><i class="fad fa-chevron-double-up"></i>TOP</a>
+    <p class="backtotop_btn"><i class="fad fa-chevron-double-up"></i>TOP</p>
   </div>
-
-
 </body>
 
 </html>
