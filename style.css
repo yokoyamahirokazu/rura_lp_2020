@@ -5685,10 +5685,7 @@ header {
   -ms-transition: 0.3s ease;
   transition: 0.3s ease;
   background: #fff;
-}
-.header_shadow {
-  box-shadow: 3px 0 3px rgba(0,0,0,0.2);
-  background: #fff;
+    box-shadow: 3px 0 3px rgba(0,0,0,0.2);
 }
 .header_logo {
   position: absolute;

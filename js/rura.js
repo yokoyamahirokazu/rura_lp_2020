@@ -121,23 +121,6 @@ jQuery(function ($) {
   $('.nav_toggle').click(function () {
     $('header').toggleClass('open');
   });
-  var $win = $(window),
-    $header = $('header'),
-    headerHeight = $header.outerHeight(),
-    startPos = 0;
-  $win.on('load scroll', function () {
-    var value = $(this).scrollTop();
-    if (value > startPos && value > headerHeight) {
-      $header.css('top', '-' + headerHeight + 'px');
-    } else {
-      $header.css('top', '0');
-      $header.addClass('header_shadow');
-    }
-    if (value < 100) {
-      $header.removeClass('header_shadow');
-    }
-    startPos = value;
-  });
   $(window).scroll(function () {
     $('.fadein').each(function () {
       var position = $(this).offset().top;
