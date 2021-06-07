@@ -2842,6 +2842,7 @@ overflow:hidden;
   overflow:hidden;
   display: flex;
   max-width: 960px;
+  justify-content: center;
   }
   .contact_block_title {
     font-size: 24px;
