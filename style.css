@@ -2802,6 +2802,9 @@ overflow:hidden;
   display: block;
   margin: 6px 0 0 0;
 }
+.contact_btn span.small{
+  font-size: 12px;
+}
 .contact_btn i {
   font-size: 32px;
   display: block;
@@ -2870,6 +2873,9 @@ overflow:hidden;
     font-size: 12px;
     display: block;
     margin: 6px 0 0 0;
+  }
+  .contact_btn span.small {
+    display: inline-block;
   }
   .contact_btn i {
     font-size: 32px;
@@ -3949,6 +3955,9 @@ anima
   font-size: 10px;
   display: block;
   margin: 0 0 0 0;
+}
+.anima_wrapper_dl_btn span.small{
+  font-size: 12px;
 }
 .anima_wrapper_dl_btn i {
   font-size: 32px;
@@ -5834,6 +5843,11 @@ header {
   background-color: rgb(255, 129, 71);
   border: #fff solid 2px;
 }
+
+.header_contact_btn span.small {
+  font-size: 12px;
+}
+
 @media screen and (max-width:880px){
   header {
     height: 50px;
